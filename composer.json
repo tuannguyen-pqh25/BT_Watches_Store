@@ -1,0 +1,20 @@
+{
+    "name": "tuanbinh/bt-watch",
+    "description": "BT WATCH — Dự án CT275 PHP MVC WatchStore",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "bramus/router": "^1.6",
+        "league/plates": "3.6.0",
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/functions.php"
+        ]
+    }
+}

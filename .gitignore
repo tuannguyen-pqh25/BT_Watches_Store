@@ -1,0 +1,8 @@
+/vendor
+/.idea
+/.vscode
+.env
+/Core
+/backup
+*.conf
+database/online_sessions.json
